@@ -183,6 +183,21 @@
                 "read_only": {
                   "type": "object"
                 },
+                "publish_field_domains": {
+                  "properties": {
+                    "fields": {
+                      "type": "nested",
+                      "properties": {
+                        "field": {
+                          "type": "keyword"
+                        },
+                        "type": {
+                          "type": "keyword"
+                        }
+                      }
+                    }
+                  }
+                },
                 "read_write": {
                   "type": "object"
                 },
